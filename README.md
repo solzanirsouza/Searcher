@@ -1,5 +1,5 @@
 **Application to create the object "Person" and to search with simples filters.**
-<br> The focus of this example is to demonstrate how to look for any register on MongoDB with a flexible query (Criteria).
+<br> The focus of this example is to demonstrate how to look for any document on MongoDB with a flexible query (Criteria).
 
 To learn and create this example I used this references below.
 

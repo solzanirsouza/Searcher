@@ -1,0 +1,13 @@
+server:
+  port: 8084
+
+spring:
+  data:
+    mongodb:
+      database: persondb
+      host: localhost
+      port: 27017
+      repositories.enabled: true
+      uri: mongodb://localhost:27017/persondb
+      username:
+      password:

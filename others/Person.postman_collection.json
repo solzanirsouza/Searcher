@@ -1,0 +1,76 @@
+{
+	"id": "e1e8b0f1-4308-3502-d274-3aa737174a2b",
+	"name": "Person",
+	"description": "",
+	"order": [
+		"4ced6fad-a344-588d-b22c-a1be7b5c36f4",
+		"e3fbe95a-a216-ee52-d712-304d68a08804"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1565311960404,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "4ced6fad-a344-588d-b22c-a1be7b5c36f4",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8084/api/search/person/savePerson",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e1e8b0f1-4308-3502-d274-3aa737174a2b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Insert Peson",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1565311970693,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\" : \"solzanir\",\n\t\"email\" : \"solzanir@gmail.com\",\n\t\"age\" : 34,\n\t\"course\" : \"Arquitetura de Software\"\n}"
+		},
+		{
+			"id": "e3fbe95a-a216-ee52-d712-304d68a08804",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8084/api/search/person/searchWithFilters",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1565313995045,
+			"name": "Search With Filters",
+			"description": "",
+			"collectionId": "e1e8b0f1-4308-3502-d274-3aa737174a2b",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\" : \"solzanir\",\n\t\"email\" : \"solzanir\",\n\t\"age\" : 34,\n\t\"course\" : \"arquitetura\"\n}"
+		}
+	]
+}
